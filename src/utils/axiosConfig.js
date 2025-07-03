@@ -49,6 +49,7 @@ const API_BASE_URL = process.env.REACT_APP_API_URL || 'http://localhost:8000';
 export const clientsApi = createApiClient(`${API_BASE_URL}/clients`);
 export const usersApi = createApiClient(`${API_BASE_URL}/users`);
 export const authApi = createApiClient(`${API_BASE_URL}/auth`);
+export const materialsApi = createApiClient(`${API_BASE_URL}/materials`);
 
 // Função para criar instâncias customizadas
 export default createApiClient;

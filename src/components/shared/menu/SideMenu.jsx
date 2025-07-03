@@ -14,11 +14,15 @@ function SideMenu() {
 
   return (
     <nav className="side-menu">
-      <div className="side-menu-title">Menu</div>
-      <ul>
+      <div className="side-menu-title">Menu</div>      <ul>
         <li>
           <NavLink to="/clientes" className={({ isActive }) => isActive ? 'active' : ''} end>
             Clientes
+          </NavLink>
+        </li>
+        <li>
+          <NavLink to="/materiais" className={({ isActive }) => isActive ? 'active' : ''}>
+            Materiais
           </NavLink>
         </li>
         <li>
